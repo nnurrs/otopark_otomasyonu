@@ -12,7 +12,7 @@ def musteri_ekle():
             kume = set()  # boş küme oluşturuldu
             kume.add(str(sira_no))
             for j in liste:
-                j = j.split(":")  # sıra numarası bulunan satır boşluklara göre split ile elemanların ayrıldı.
+                j = j.split(":")  # sıra numarası bulunan satır boşluklara göre split ile elemanlarına ayrıldı.
                 kume.add(j[1].split(" ")[1])
                 # split ile ayrılan listenin ilk 1. elemanında sıra numarası olduğu için bu eleman dasplit ile başka bir liste haline getirildi.
                 # en son oluşan listenin ilk elemanı olan sıra numarası alınıp kümeye eklendi
